@@ -11,6 +11,10 @@ The system is designed using the following design patterns:
 3. Facade: The Order class is designed using the Facade pattern, as it provides a simplified interface for clients to place and manage orders. Clients can simply create an instance of the Order class, add items to the order, and retrieve a summary of the order, without needing to interact directly with the MenuItem or OrderItem classes.
 4. Flyweight: The MenuItemFactory class is designed using the Flyweight pattern, as it caches previously created MenuItem objects and returns them instead of creating new ones, thus minimizing the memory footprint of the application.
 
+## Project Structure
+
+![img_1.png](img_1.png)
+
 Code fragments
 Here are some code fragments that illustrate the use of the design patterns in the project:
 
